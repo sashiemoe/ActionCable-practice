@@ -14,7 +14,7 @@ App.room = App.cable.subscriptions.create("RoomChannel", {
   speak: function(data) {
       //  window.alert(data)
       //return this.perform('speak');
-      return $('#messages').append(data['message']);
+      return $('#messages').append('<p>'+data+'</p>');
   }
 });
 
