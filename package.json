@@ -1,7 +1,5 @@
 {
   "name": "test_chat",
   "private": true,
-  "dependencies": {
-    "jquery": "^3.5.1"
-  }
+  "dependencies": {}
 }
